@@ -8,7 +8,7 @@ Projection warping is the process of manipulating an image so that it can be pro
 * **Bilinear warp**: inferior to perspective warping on flat surfaces, but allows projecting onto curved surfaces. Simply add control points to the warp and drag them to where you want your content to be. 
 * **Perspective-bilinear warp**: a combination of both techniques, where you first drag the four corners of your content to the desired location on the wall, then adjust for curvatures using the additional control points. If you (accidentally) move your projector later, all you need to do is adjust the four corners and the projection should perfectly fit on the curved wall again.
 
-Projection blending is the process of creating a single image from multiple virtual or physical projections. Blending can be accomplished with this addon through the edge blending functions or by assigning a blend LUT texture. Proper blending may also require color calibration between physical projectors. This addon supports HSB ajustments as well as the assignment of a color LUT texture.
+Projection blending is the process of creating a single image from multiple virtual or physical projections. Blending can be accomplished with this addon through the edge blending functions or by assigning a blend LUT texture. Proper blending may also require color calibration between physical projectors. This addon supports HSB adjustments as well as the assignment of a color LUT texture.
 
 #####Controls
 The addon provides a built-in editor to adjust your warps. When activated using the ```Warp::enableEditMode(true)``` function, these are the keys you can use:
